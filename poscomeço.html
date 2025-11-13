@@ -26,12 +26,12 @@
                     <input type="radio" value="Uma mocinha com medo" id="p1b" name="pergunta1">
                     <label for="p1b">B - Uma mocinha com medo</label><br>
 
-                    <input type="radio" value="O um dos maior Adm que a terra ja viu" id="p1c" name="pergunta1">
+                    <input type="radio" value="Um dos maiores Adms que a terra ja viu" id="p1c" name="pergunta1">
                     <label for="p1c">C - Um dos maiores Adm que a terra 
                     já viu</label><br>
                     
                     <input type="radio" value="Python" id="p1d" name="pergunta1">
-                    <label for="p1d">D - Escravo trazido pelo navio negreiro</label><br>
+                    <label for="p1d">D - Sócrates</label><br>
             </div>
             </form>
         </section>
@@ -47,7 +47,7 @@
         <!--Pergunta 3: senha-->
         <section>
             <div id="p3">
-                <h2>Pergunta 3: Escreva cegamente uma senha para lembrar do seu adm preferido</h2>
+                <h2>Pergunta 3: Digite sua senha do banco</h2>
                 <form>
                     <input type="password" name="pergunta3" id="p3" placeholder="Digite sua senha">
                 </form>
@@ -103,7 +103,7 @@
             <div id="p7">
                 <h2>Pergunta 7: Qual Adm está sendo representado na imagem abaixo?</h2>
                 <img src="https://i.pinimg.com/564x/da/85/39/da853986cceb8cd6575afd0e654e5ccc.jpg" alt="O primeiro adm"><br>
-                <input type="text" id="p8" name="pergunta8" placeholder="Digite sua resposta"">
+                <input type="text" id="p7" name="pergunta7" placeholder="Digite sua resposta"">
             </div>
         </section>
         <!--Tabela de pontuação-->
@@ -145,19 +145,9 @@
         </section>
         <!--Lista de respostas-->
         <section aria-labelledby="Verifique-respostas">
-            <h2 id="Verifique-respostas">Verifique as respostas</h2>
-            <details>
-                <summary role="button">Clique aqui para ver as respostas do cuis</summary>
-                <ol>
-                    <li>C - Um dos maiores Adm que a terra já viu</li>
-                    <li>Games edu</li>
-                    <li>Ednaldo Pereira</li>
-                    <li>12 de Junho de 1973</li>
-                    <li>Ednaldo Pereira e Cachorro caramelo</li>
-                    <li>Adm supremo</li>
-                    <li>Adm supremo</li>
-                </ol>
-            </details>
+            <strong><h2 id="verifcar respostas"><button id="botao_vr">Verficar suas respostas</button></h2></strong>
+            <p id="pontuação">p</p>
+            <p id="mensagem especial"></p>
         </section>
         <!--Formulário de feedback-->
         <section>
@@ -173,7 +163,7 @@
 
                     <label for="comentarios">Passa o zap:</label><br>
                     <textarea id="comentarios" name="comentarios" rows="5" cols="50" placeholder="Me deixa cheio de conhecimento"></textarea><br>
-                    <button onclick="alert('Feedback enviado')">Enviar feedback</button>
+                    <button onclick="alert('Feedback enviado')" type="submit">Enviar feedback</button>
                 </fieldset>
             </form>
         </section>
@@ -182,5 +172,6 @@
         <p class="paragrafo-footer">&copy;Todos os direitos reservados ao Guilherme do pix.</p><br>
         <P class="paragrafo-footer">Para entrar em contato envie mensagem ou pedido na <a href="https://www.instagram.com/guilherme38_38/" target="_blank">minha dm do instagram</a></P>
     </footer>
+    <script src="script.js"></script>
     </body>
 </html>

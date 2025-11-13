@@ -6,7 +6,7 @@
 }
 body {
     background-color: #F4F0EA;
-    color: rgb(50, 118, 173);
+    color: rgb(0, 0, 0);
     font-family: "JetBrais Mono", monospace;
     font-weight: 400;
     font-size: 20px;
@@ -187,4 +187,9 @@ footer{
 
 .paragrafo-footer{
     color: black;
+}
+
+#botao_vr{
+    font-size: 30px;
+    cursor: pointer;
 }
