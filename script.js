@@ -10,7 +10,7 @@ botao.addEventListener('click', () => {
     if (p2 === "games edu") pontuaçao++
 
     const p3 = document.querySelector('input[name="pergunta3"]').value.trim()
-    if (p3.length !== 4 || isNaN(p3)) {
+    if (p3.length !== 4 || p3.length !== 6|| isNaN(p3)) {
         alert('Digite uma senha válida')
     } else {
         pontuaçao++
@@ -32,3 +32,4 @@ botao.addEventListener('click', () => {
     const msg = document.getElementById('pontuação')
     msg.textContent = `Você acertou ${pontuaçao} de 7 perguntas!`
 })
+
